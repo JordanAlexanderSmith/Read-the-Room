@@ -39,6 +39,8 @@ Also the values for access_key, access_secret, region, and queue_url will all be
 
 Creating the Alexa skill is straightforward, the most confusing part is specifying the queue as an endpoint, this can be done by finding the ARN adress within the AWS queue and specifying that adress inside of the new alexa skill.
 
+Link to Demonstration Video: https://www.youtube.com/watch?v=CcCuK_IoyuQ
+
 
 
 
