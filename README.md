@@ -29,6 +29,7 @@ EyeD3
 Pydub
 
 documentation for pyAudioAnalysis can be found here: https://github.com/tyiannak/pyAudioAnalysis
+
 Helpful for understanding AWS queue and Amazon Alexa Skill: http://www.cyber-omelette.com/2017/01/alexa-run-script.html
 
 Note about Lambda_function.py and queue functionality:
