@@ -1,10 +1,10 @@
 import json
 import boto3
 
-access_key = "REDACTED_ACCESS_KEY"
-access_secret = "REDACTED_SECRET_KEY"
-region ="us-east-2"
-queue_url = "REDACTED_QUEUE_URL"
+access_key = "X"
+access_secret = "X"
+region ="X"
+queue_url = "X"
 
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
