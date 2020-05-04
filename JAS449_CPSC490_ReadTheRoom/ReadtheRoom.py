@@ -98,10 +98,10 @@ def GenrePicker(valence, arousal, people):
 			else:
 				return("Jazz")
 
-access_key = "AKIA6OD36MM4U2WBKOVQ"
-access_secret = "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"
-region ="us-east-2"
-queue_url = "https://sqs.us-east-2.amazonaws.com/992397386553/READ_THE_ROOM"
+access_key = "X"
+access_secret = "X"
+region ="X"
+queue_url = "X"
 
 def pop_message(client, url):
     response = client.receive_message(QueueUrl = url, MaxNumberOfMessages = 10)
