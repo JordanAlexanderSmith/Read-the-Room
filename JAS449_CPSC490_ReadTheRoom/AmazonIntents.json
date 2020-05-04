@@ -1,0 +1,68 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "read the room",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Listen",
+                    "slots": [],
+                    "samples": [
+                        "Figure out the Mood",
+                        "Check the Vibe",
+                        "Catch the vibe",
+                        "Read the room",
+                        "Listen"
+                    ]
+                },
+                {
+                    "name": "Respond",
+                    "slots": [],
+                    "samples": [
+                        "Tell me the mood",
+                        "Tell me the Vibe",
+                        "what's your read of the room",
+                        "What's the mood of the room",
+                        "What's the vibe",
+                        "what should I listen to",
+                        "what should I play",
+                        "what did you read"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
