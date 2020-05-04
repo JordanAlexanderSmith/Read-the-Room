@@ -98,10 +98,10 @@ def GenrePicker(valence, arousal, people):
 			else:
 				return("Jazz")
 
-access_key = "REDACTED_ACCESS_KEY"
-access_secret = "REDACTED_SECRET_KEY"
-region ="us-east-2"
-queue_url = "REDACTED_QUEUE_URL"
+access_key = "X"
+access_secret = "X"
+region ="X"
+queue_url = "X"
 
 def pop_message(client, url):
     response = client.receive_message(QueueUrl = url, MaxNumberOfMessages = 10)
