@@ -1,10 +1,10 @@
 import json
 import boto3
 
-access_key = "AKIA6OD36MM4U2WBKOVQ"
-access_secret = "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"
-region ="us-east-2"
-queue_url = "https://sqs.us-east-2.amazonaws.com/992397386553/READ_THE_ROOM"
+access_key = "X"
+access_secret = "X"
+region ="X"
+queue_url = "X"
 
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
